@@ -1,0 +1,41 @@
+.body{
+  background: linear-gradient(103.54deg, #1D43CA 0.47%, #5A7EFF 98.9%);
+}
+.body__cards{
+  display: flex;
+   
+}
+
+.body__text-info{
+  padding: 118px 0 16px 0;
+  font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 107.52%;
+/* or 54px */
+
+
+/* White */
+
+color: #FFFFFF;
+}
+
+.body__price{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+/* White */
+
+color: #FFFFFF;
+max-width: 556px;
+}
+
+.body__form{
+  border: 1px dashed rgba(255, 255, 255, 0.43);
+box-sizing: border-box;
+border-radius: 50px;
+}

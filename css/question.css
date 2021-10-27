@@ -1,0 +1,17 @@
+.questions{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.accordion{
+  border: solid 2px red;
+}
+.accordion__btn{
+  border: solid green 2px;
+}
+.accorion__content{
+  border: blue solid 2px;
+  display: none;
+}
+.accorion__content.active {
+  display: block;
+}

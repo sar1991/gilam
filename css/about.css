@@ -1,0 +1,140 @@
+.about{
+  padding-top: 85px;
+  padding-bottom: 185px;
+  overflow: hidden;
+}
+
+.about__title {
+  margin-bottom: 55px;
+}
+
+.about__cards{
+  display: flex;
+  column-gap: 10px;
+}
+
+.about__card{
+  width: 293px;
+  background: linear-gradient(180deg, #F0F5FE 0%, #FFFFFF 79.58%, #FFFFFF 79.58%);
+  border-radius: 10px;
+  padding: 12px 30px 232px 22px;
+  margin-top: 10px;
+  transition: all 0.4s;
+}
+
+.card__top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.card__number{
+  font-weight: bold;
+font-size: 90px;
+line-height: 90px;
+color: #FFFFFF;
+text-shadow: 0px 4px 35px rgba(0, 19, 87, 0.05);
+}
+
+.card__title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1F56D5;
+  margin-bottom: 7px;
+}
+
+.card__subtitle{
+  font-size: 15px;
+  line-height: 18px;
+  color: #505050;
+}
+
+.about__card:hover{
+  transform: translateY(-22px);
+  cursor: pointer;
+}
+
+.about__info{
+  background: #1F56D5;
+  border-radius: 20px;
+  padding: 30px 40px;
+  width: 797px;
+  margin: 0 auto;
+  background-image: url(../imge/10.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-top: -112px;
+  position: relative;
+  z-index: 5;
+}
+
+.about__info::before,
+.about__info::after{
+  content:"";
+  position: absolute;
+  bottom: 0;
+  width: 394px;
+  height: 144px;
+  background-image: url(../imge/bg10.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 10;
+  
+}
+
+.about__info::before{
+  right: 100%;
+}
+
+.about__info::after{
+  left: 100%;
+}
+
+.about__info h1{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+  
+}
+
+.about__info p{
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  margin-bottom: 21px;
+}
+
+.about__form{
+  
+  background: #FFFFFF;
+  border-radius: 50px;
+  display: inline-flex;
+  overflow: hidden;
+  padding-left:28px;
+}
+.about__form button{
+  background: #FFCA42;
+  border-radius: 60px;
+  padding: 13px 35px;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.about__form button img{
+  margin-left: 14px;
+}
+
+.about__form input{
+  border: none;
+  font-size: 14px;
+  line-height: 17px;
+  outline: none;
+}
+

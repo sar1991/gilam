@@ -1,0 +1,40 @@
+.show{
+  background-color: #F7F7F7;
+  padding: 41px 0 47px 0;
+  
+}
+
+.show__title h1{
+  font-size: 35px;
+line-height: 43px;
+}
+
+.show__title{
+  margin-bottom: 20px;
+}
+
+.show__imga{
+  margin: 0 auto;
+  max-width: 788px;
+  display: flex;
+  column-gap: 3px;
+  margin-bottom: 40px;
+}
+
+.show__result{
+  font-size: 24px;
+line-height: 29px;
+text-align: center;
+margin-bottom: 16px;
+}
+
+.show__btn{
+  background: linear-gradient(180deg, #FFE299 0%, #FFBB0C 100%);
+  border-radius: 60px;
+  margin: 0 auto;
+  padding: 13px 22px 13px 23px;
+  border: none;
+  max-width: 286px;
+  width: 100%;
+  display: block;
+}
