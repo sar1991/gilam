@@ -1,0 +1,18 @@
+.futer{
+  background: #0E2559;
+  padding-top: 50px;
+}
+.futer__container{
+  display: flex;
+}
+.futer__more-info{
+  display: flex;
+}
+
+.ask{
+  padding: 0 20px;
+}
+
+.futer__logo{
+  margin-bottom:32px;
+}
