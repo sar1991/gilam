@@ -1,18 +1,91 @@
-.futer{
-  background: #0E2559;
+.futer {
+  background: #0e2559;
   padding-top: 50px;
 }
-.futer__container{
+.futer__container {
   display: flex;
 }
-.futer__more-info{
+.futer__more-info {
   display: flex;
 }
 
-.ask{
+.futer__more-info a {
+  text-decoration: none;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.ask {
   padding: 0 20px;
 }
 
-.futer__logo{
-  margin-bottom:32px;
+.futer__logo {
+  margin-bottom: 32px;
+}
+
+.futer__link {
+  margin: 0 127px 0 166px;
+}
+
+.futer__link img {
+  margin-right: 6px;
+}
+
+.futer__link a {
+  text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+}
+.futer__links {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.futer__links p {
+  color: #fff;
+  font-weight: normal;
+}
+
+.futer__link-name {
+  font-weight: 600;
+  color: #ffca42;
+}
+
+.futer__meseng {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.futer__contact {
+  margin-right: 66px;
+}
+
+.futer__contact span {
+  font-size: 15px;
+  line-height: 18px;
+  color: #b4c2f7;
+}
+
+.futer__contact__tel-number {
+  font-family: Inter;
+  font-style: normal;
+}
+
+.futer__contact__tel-number h4 {
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.futer__contact__tel-number p {
+  flex-shrink: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffca42;
+}
+
+.Number {
+  display: flex;
+  align-items: center;
 }
