@@ -7,7 +7,16 @@
   align-items: flex-end;
    
 }
-
+.body__info{
+  width: 60%;
+}
+.body__imga{
+  width: 40%;
+}
+.body__imga img{
+  max-width: 100%;
+  display: block;
+}
 .body__text-info{
   padding: 118px 0 16px 0;
   font-family: Montserrat;
@@ -37,6 +46,7 @@ padding: 17px 19px 14px 16px;
 display: flex;
 align-items: center;
 max-width: 621px;
+column-gap: 15px;
 
 }
 

@@ -19,3 +19,4 @@ var maskOptions = {
 };
 var mask = IMask(element, maskOptions);
 
+var element = document.querySelector(".header__menu-mobil");
