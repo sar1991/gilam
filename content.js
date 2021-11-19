@@ -6,3 +6,16 @@ for (let i=0; i < acardionBtns.length; i++) {
     e.target.closest(".questions__item-btn").nextElementSibling.classList.toggle("active");
   })
 }
+
+var element = document.querySelector('.info__number');
+var maskOptions = {
+  mask: '+{998}(00)000-00-00'
+};
+var mask = IMask(element, maskOptions);
+
+var element = document.querySelector('.body__form input');
+var maskOptions = {
+  mask: '(00)000-00-00'
+};
+var mask = IMask(element, maskOptions);
+

@@ -26,24 +26,26 @@
 .info__inputs {
   background: #ffffff;
   border-radius: 50px;
-  display: inline-flex;
+  display: flex;
   overflow: hidden;
-  padding-left: 28px;
-  display: block;
+  max-width: 520px;
+  width: 100%;
 }
 .info__name {
   border: none;
   font-size: 14px;
   line-height: 17px;
   outline: none;
-  padding: 15px 160px 15px 15px;
+  border-right: 1px solid #E7E7E7; 
+ 
+  padding: 15px 20px 15px 25px;
 }
 .info__number {
   border: none;
   font-size: 14px;
   line-height: 17px;
   outline: none;
-  padding: 15px 123px 15px 15px;
+  padding: 15px 25px 15px 25px;
 }
 .info__contoct {
   display: flex;

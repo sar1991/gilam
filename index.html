@@ -14,12 +14,16 @@
     <link rel="stylesheet" href="./css/question.css" />
     <link rel="stylesheet" href="./css/info.css" />
     <link rel="stylesheet" href="./css/futer.css" />
+    <link rel="stylesheet" href="./css/futer-bottom.css">
+    <link rel="stylesheet" href="./css/media.css">
   </head>
   <body>
+    
     <header class="header">
       <div class="container">
         <div class="header__inner">
           <img src="./imge/Logo.png" alt="Logo" />
+         <div class="header__menu">
           <ul class="header__info">
             <li><a class="header-link" href="#">Главная</a></li>
             <li><a class="header-link" href="#">Наши работы</a></li>
@@ -40,10 +44,11 @@
           </div>
           <button class="header__price">Узнать цену</button>
         </div>
+         </div>
       </div>
     </header>
 
-    <div class="body">
+    <!-- <div class="body">
       <div class="container">
         <div class="body__cards">
           <div class="body__info">
@@ -55,6 +60,7 @@
             </p>
             <div class="body__contact">
               <form class="body__form">
+               <div class="body__form-contact">
                 <span class="body__tel">+998</span>
                 <input
                   class="body__number"
@@ -65,25 +71,26 @@
                   Узнать цену
                   <img src="./imge/ero.svg" alt="ero" />
                 </button>
-                <span> Расчитайте стоимость прямо сейчас и получите </span>
+               </div>
+                <div class="body__form-right">
+                  <span> Расчитайте стоимость прямо сейчас и получите </span>
                 <p>скидку -10%</p>
+                </div>
               </form>
             </div>
             <div class="body__futer">
               <ul class="body__futer-info">
-                <li>
+                <li style="background-image: url(./imge/body-icon1.png); background-repeat: no-repeat; height: 72px;">
                   <img src="./imge/circle-check.svg" alt="check" />
-                  <img src="./imge/body-icon1.png" alt="icon-body" />
                   гипоаллергенные средства
                 </li>
-                <li>
-                  <img src="./imge/circle-check.svg" alt="check" />
-                  <img src="./imge/body-icon1.png" alt="icon-body" /> устроняем
+                <li style="background-image: url(./imge/body-icon1.png); background-repeat: no-repeat; height: 72px">
+                  <img src="./imge/circle-check.svg" alt="check" />устроняем
                   99% грязи
                 </li>
-                <li>
+                <li style="background-image: url(./imge/body-icon3.png); background-repeat: no-repeat; height: 72px">
                   <img src="./imge/circle-check.svg" alt="check" />
-                  <img src="./imge/body-icon3.png" alt="icon-body" /> скидки
+                   скидки
                   пенсионерам и многодетным 5%
                 </li>
               </ul>
@@ -92,7 +99,6 @@
           <div class="body__imga">
             <div class="body__card-img">
               <img src="./imge/main-photo.png" alt="photo" />
-              <img src="./imge/pley-icon.svg" alt="pley-icon" />
             </div>
           </div>
         </div>
@@ -150,7 +156,7 @@
           <h1>Скидка на первый заказ</h1>
           <p>Оставте заявку и получите скидку до -10%</p>
           <form class="about__form">
-            <input type="text" placeholder="*Ваше имя" />
+            <input style="border-right: 1px solid #E7E7E7; margin-right: 5px;" type="text" placeholder="*Ваше имя" />
             <input type="text" placeholder="*Номер телефона" />
             <button>
               Отправить
@@ -504,7 +510,7 @@
         </p>
         <div class="info__contoct">
           <form class="info__inputs">
-            <input class="info__name" type="text" placeholder="*Ваше имя" />
+            <input  class="info__name" type="text" placeholder="*Ваше имя" />
             <input
               class="info__number"
               type="text"
@@ -612,20 +618,29 @@
               <p>Оставте заявку и получите скидку до -10%</p>
             </div>
           </div>
-          <div class="futer__futer">
-            <p>Bisyor 2021. Все права защишены.</p>
-            <ul class="futer__futer-languge">
-              <li class="ru"><a href="#">Ру</a></li>
-              <li>/</li>
-              <li class="uz"><a href="#">O’z</a></li>
-            </ul>
-            <p>Сайт разработал</p>
-            <h5>SPACEMOS</h5>
-          </div>
         </div>
       </div>
-    </div>
+      <div class="futer__bottom">
+        <div class="container">
+          <div class="futer__iner">
+            <p class="futer__iner-left">Bisyor 2021. Все права защишены.</p>
+            <ul class="futer__futer-languge">
+              <li class="ru"><a href="#">Ру</a></li>
+              <li class="futer__futer-languge__line">/</li>
+              <li class="uz"><a href="#">O’z</a></li>
+            </ul>
+            <div class="futer__iner-right">
+              <p class="futer__iner-create">Сайт разработал</p>
+            <h5>SPACEMOS</h5>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div> -->
 
+
+    <script src="https://unpkg.com/imask"></script>
     <script src="./content.js"></script>
   </body>
 </html>

@@ -1,8 +1,10 @@
 .body{
   background: linear-gradient(103.54deg, #1D43CA 0.47%, #5A7EFF 98.9%);
+  
 }
 .body__cards{
   display: flex;
+  align-items: flex-end;
    
 }
 
@@ -13,11 +15,6 @@ font-style: normal;
 font-weight: bold;
 font-size: 50px;
 line-height: 107.52%;
-/* or 54px */
-
-
-/* White */
-
 color: #FFFFFF;
 }
 
@@ -27,15 +24,105 @@ font-style: normal;
 font-weight: normal;
 font-size: 24px;
 line-height: 29px;
-
-/* White */
-
 color: #FFFFFF;
 max-width: 556px;
+margin-bottom: 35px;
 }
 
 .body__form{
-  border: 1px dashed rgba(255, 255, 255, 0.43);
+border: 1px dashed rgba(255, 255, 255, 0.43);
 box-sizing: border-box;
 border-radius: 50px;
+padding: 17px 19px 14px 16px;
+display: flex;
+align-items: center;
+max-width: 621px;
+
+}
+
+.body__form input{
+  width: 100%;
+  padding: 3px 10px;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  display: block;
+  align-items: center;
+  color: #000000;
+  flex-shrink: 0;
+  width: 123px;
+  
+}
+.body__form-contact{
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  border-radius: 25px;
+}
+
+.body__form-contact button{
+  background: linear-gradient(180deg, #FFE299 0%, #FFBB0C 100%);
+border-radius: 60px;
+padding: 17px 20px 17px 27px;
+display: flex;
+align-items: center;
+flex-shrink: 0;
+column-gap: 14px;
+border: none;
+}
+
+.body__form-right span{
+  max-width: 207px;
+  font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.body__form-right p{
+  font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.body__form-right{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.body__futer{
+  display: flex;
+  margin-top: 221px;
+}
+
+.body__futer-info{
+  display: flex;
+  padding-bottom: 60px;
+}
+
+.body__futer-info li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  padding-left: 16px;
+  column-gap: 8px;
+  font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #FFFFFF;
+}
+
+.body__card-img{
+  display: block;
 }
