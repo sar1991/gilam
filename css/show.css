@@ -6,7 +6,8 @@
 
 .show__title h1{
   font-size: 35px;
-line-height: 43px;
+  line-height: 43px;
+  padding: 0 5px;
 }
 
 .show__title{

@@ -119,6 +119,19 @@ color: #FFFFFF;
   display: flex;
   padding-bottom: 60px;
 }
+#bg1{
+  background-image: url(../imge/body-icon1.png);
+   background-repeat: no-repeat; height: 72px;
+  
+}
+#bg2{
+  background-image: url(../imge/body-icon1.png); 
+  background-repeat: no-repeat; height: 72px;
+}
+#bg3{
+  background-image: url(../imge/body-icon3.png);
+   background-repeat: no-repeat; height: 72px;
+}
 
 .body__futer-info li{
   display: flex;
@@ -135,4 +148,9 @@ color: #FFFFFF;
 
 .body__card-img{
   display: block;
+}
+
+.body__tel{
+  display: flex;
+  align-items: center;
 }

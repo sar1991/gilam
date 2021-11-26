@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 10px;
 }
 
 .futer__futer-languge{
@@ -53,7 +54,7 @@ flex-shrink: 0;
 
 .futer__iner-left{
     font-size: 15px;
-line-height: 18px;
-
-color: #B4C2F7;
+    line-height: 18px;
+    color: #B4C2F7;
+    flex-shrink: 0;
 }

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GILAMLAR</title>
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/body.css" />
@@ -16,6 +17,7 @@
     <link rel="stylesheet" href="./css/futer.css" />
     <link rel="stylesheet" href="./css/futer-bottom.css">
     <link rel="stylesheet" href="./css/media.css">
+    
   </head>
   <body>
     
@@ -55,7 +57,7 @@
       </div>
     </header>
 
-    <div class="body"> 
+    <div class="body">
       <div class="container">
         <div class="body__cards">
           <div class="body__info">
@@ -68,13 +70,15 @@
             <div class="body__contact">
               <form class="body__form">
                <div class="body__form-contact">
-                <span class="body__tel">+998
-                <input
-                  class="body__number"
-                  type="text"
-                  placeholder="XX XXX XX XX"
-                />
-              </span>
+                <div class="body__tel__contact">
+                  <span class="body__tel">+998
+                    <input
+                      class="body__number"
+                      type="text"
+                      placeholder="XX XXX XX XX"
+                    />
+                  </span>
+                </div>
                 <button class="btn-ero">
                   Узнать цену
                   <img src="./imge/ero.svg" alt="ero" />
@@ -88,15 +92,15 @@
             </div>
             <div class="body__futer">
               <ul class="body__futer-info">
-                <li style="background-image: url(./imge/body-icon1.png); background-repeat: no-repeat; height: 72px;">
+                <li id="bg1">
                   <img src="./imge/circle-check.svg" alt="check" />
                   гипоаллергенные средства
                 </li>
-                <li style="background-image: url(./imge/body-icon1.png); background-repeat: no-repeat; height: 72px">
+                <li id="bg2">
                   <img src="./imge/circle-check.svg" alt="check" />устроняем
                   99% грязи
                 </li>
-                <li style="background-image: url(./imge/body-icon3.png); background-repeat: no-repeat; height: 72px">
+                <li id="bg3">
                   <img src="./imge/circle-check.svg" alt="check" />
                    скидки
                   пенсионерам и многодетным 5%
@@ -113,69 +117,75 @@
       </div>
     </div>
 
-    <!-- <div class="about">
+     <div class="about"> 
       <div class="container">
-        <div class="page-title about__title">
-          <h1>Как мы работаем</h1>
-          <div class="page-title__line"></div>
-          <p>За несколько загов мы превратим Ваши ковры как новые</p>
-        </div>
-        <div class="about__cards">
-          <div class="about__card">
-            <div class="card__top">
-              <img src="./imge/about-itm-1.svg" alt="car" />
-              <span class="card__number">1</span>
-            </div>
-            <p class="card__title">Забираем ковер</p>
-            <p class="card__subtitle">Бесплатно забираем Ваш ковёр</p>
+        <div class="about-ocntainer">
+          <div class="page-title about__title">
+            <h1>Как мы работаем</h1>
+            <div class="page-title__line"></div>
+            <p>За несколько загов мы превратим Ваши ковры как новые</p>
           </div>
-          <div class="about__card">
-            <div class="card__top">
-              <img src="./imge/about-itm-2.svg" alt="car" />
-              <span class="card__number">2</span>
+          <div class="about__cards">
+            <div class="about__card">
+              <div class="card__top">
+                <img src="./imge/about-itm-1.svg" alt="car" />
+                <span class="card__number">1</span>
+              </div>
+              <p class="card__title">Забираем ковер</p>
+              <p class="card__subtitle">Бесплатно забираем Ваш ковёр</p>
             </div>
-            <p class="card__title">Мойка</p>
-            <p class="card__subtitle">
-              Почистка и мойка на немецком оборудовании
-            </p>
-          </div>
-          <div class="about__card">
-            <div class="card__top">
-              <img src="./imge/about-itm-3.svg" alt="car" />
-              <span class="card__number">3</span>
+            <div class="about__card">
+              <div class="card__top">
+                <img src="./imge/about-itm-2.svg" alt="car" />
+                <span class="card__number">2</span>
+              </div>
+              <p class="card__title">Мойка</p>
+              <p class="card__subtitle">
+                Почистка и мойка на немецком оборудовании
+              </p>
             </div>
-            <p class="card__title">Сушка</p>
-            <p class="card__subtitle">
-              Высушим без деформации и неприятного запаха
-            </p>
-          </div>
-          <div class="about__card">
-            <div class="card__top">
-              <img src="./imge/about-itm-4.svg" alt="car" />
-              <span class="card__number">4</span>
+            <div class="about__card">
+              <div class="card__top">
+                <img src="./imge/about-itm-3.svg" alt="car" />
+                <span class="card__number">3</span>
+              </div>
+              <p class="card__title">Сушка</p>
+              <p class="card__subtitle">
+                Высушим без деформации и неприятного запаха
+              </p>
             </div>
-            <p class="card__title">Доставка</p>
-            <p class="card__subtitle">
-              Бесплатно доставим чистый и свежий ковёр в удобный для вас день
-            </p>
+            <div class="about__card">
+              <div class="card__top">
+                <img src="./imge/about-itm-4.svg" alt="car" />
+                <span class="card__number">4</span>
+              </div>
+              <p class="card__title">Доставка</p>
+              <p class="card__subtitle">
+                Бесплатно доставим чистый и свежий ковёр в удобный для вас день
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="about__info">
-          <h1>Скидка на первый заказ</h1>
-          <p>Оставте заявку и получите скидку до -10%</p>
-          <form class="about__form">
-            <input style="border-right: 1px solid #E7E7E7; margin-right: 5px;" type="text" placeholder="*Ваше имя" />
-            <input type="text" placeholder="*Номер телефона" />
-            <button>
-              Отправить
-              <img src="./imge/ero.svg" alt="" />
-            </button>
-          </form>
+          <div class="about__info">
+           <div class="about__info-texts">
+            <h1>Скидка на первый заказ</h1>
+            <p>Оставте заявку и получите скидку до -10%</p>
+           </div>
+            <form class="about__form">
+              <div class="about__form-inputs">
+                <input style="border-right: 1px solid #E7E7E7; margin-right: 5px; height: 100%;" type="text" placeholder="*Ваше имя" />
+                <input type="text" placeholder="*Номер телефона" />
+              </div>
+              <button>
+                Отправить
+                <img src="./imge/ero.svg" alt="" />
+              </button>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
+    </div> 
 
-    <div class="show">
+     <div class="show"> 
       <div class="container">
         <div class="page-title show__title">
           <h1>
@@ -187,7 +197,7 @@
         </div>
         <div class="show__imga">
           <img src="./imge/show__befor.png" alt="show__befor" />
-          <img src="./imge/show__after.png" alt="show__after" />
+          <img class="show__img-2" src="./imge/show__after.png" alt="show__after" />
         </div>
         <p class="show__result">Понравился результат?</p>
         <button class="show__btn">
@@ -196,7 +206,9 @@
         </button>
       </div>
     </div>
-    <div class="works">
+
+
+     <div class="works"> 
       <div class="container">
         <div class="page-title works__title">
           <h1>Наши работы</h1>
@@ -239,9 +251,9 @@
           </button>
         </div>
       </div>
-    </div>
+    </div> 
 
-    <div class="questions">
+     <div class="questions">
       <div class="container">
         <h3 class="questions__title">Часто задаваемые вопросы</h3>
         <div class="questions__body">
@@ -510,12 +522,14 @@
       </div>
     </div>
 
-    <div class="info">
+    <div class="info"> 
       <div class="container">
-        <h5 class="info__title">Получите бесплатную консультацию</h5>
+        <div class="info__texts">
+          <h5 class="info__title">Получите бесплатную консультацию</h5>
         <p class="info__title2">
           Оставте ваши данные и наши эксперты свяжуться с вами.
         </p>
+        </div>
         <div class="info__contoct">
           <form class="info__inputs">
             <input  class="info__name" type="text" placeholder="*Ваше имя" />
@@ -552,7 +566,7 @@
           </button>
         </div>
       </div>
-    </div>
+    </div> 
 
     <div class="futer">
       <div class="container">
@@ -645,7 +659,7 @@
         </div>
        
       </div>
-    </div> -->
+    </div>   
 
 
     <script src="https://unpkg.com/imask"></script>

@@ -1,18 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-}
-body{
-  font-family: "Inter";
- 
-}
-.container{
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+
 
 .header{
   background-color: #1F56D5;
@@ -127,4 +113,19 @@ line-height: 18px;
 height: 5px;
 background: #FFCA42;
 margin: 10px auto;
+}
+.header__menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 0.6;
+}
+
+.header__menu-mobil,
+.header__burger{
+  display: none;
+}
+
+.header-mobil__top{
+  display: none;
 }

@@ -24,23 +24,28 @@
   padding-bottom: 21px;
 }
 .info__inputs {
-  background: #ffffff;
-  border-radius: 50px;
+  
   display: flex;
   overflow: hidden;
   max-width: 520px;
   width: 100%;
 }
+.info__inputs:first-child{
+  border: 50% 0 solid 1px;
+}
 .info__name {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
   border: none;
   font-size: 14px;
   line-height: 17px;
   outline: none;
   border-right: 1px solid #E7E7E7; 
- 
   padding: 15px 20px 15px 25px;
 }
 .info__number {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
   border: none;
   font-size: 14px;
   line-height: 17px;

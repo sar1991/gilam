@@ -132,11 +132,28 @@
     .body__cards{
         position: relative;
     }
+    
+   .about__cards{
+       display: flex;
+       
+   }
+}
+
+@media screen and (max-width:900px){
+    .futer__container{
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width:780px) {
+    .body .container{
+        padding: 0;
+    }
+    .body__info{
+        padding: 0;
+    }
     .body__text-info{
-        padding: 18px 0 16px 0;
+        padding: 35px 20px 24px;
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
@@ -144,60 +161,290 @@
         line-height: 107.52%;
         color: #FFFFFF;
     }
-    .body__imga{
-        background-image: url(../imge/main-bg-mobil.png);
-        background-repeat: no-repeat;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: right 100px;
-        flex: 0 1 100%;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        height: 80%;
-        width: 85%;
-        background-size: cover;
+    .body__price{
+        padding: 0 20px;
     }
-    .body__futer-info{
+    .body__imga{
         display: none;
     }
-    .body__form{
+    .body__cards{
         display: block;
-        border-radius: 0;
-        background-color: transparent;
-        text-align: center;
+        background-image: url(../imge/main-bg-mobil.png );
+        background-repeat: no-repeat;
+        background-position: right 100px;
+        width: 100%;
+        background-size: 75% auto;
+    }
+    .body__cards image{
+        width: 313px;
+        height: 357px;
+    }
+    .body__futer-info{
+        display: flex;
+        flex-wrap: wrap;
+
     }
     .body__contact{
-        background-color: #1F56D5;
-    width: 100%;
-    border: none;
-    border-radius: 0;
-    display: block;
-    padding: 0;
-    max-width: initial;
-    text-align: center;
-    padding: 18px 0;
-    margin-bottom: 0;
+       
+        background: #1F56D5;
+        display: block;
         
     }
-    .body__form-contact{
-       display: block;
-    border-radius: 0;
-    background-color: transparent;
-    text-align: center;
+    
+   .body__form{
+    width: 100%;
+    display: grid;
+    row-gap: 20px;
+    position: relative;
+    border: none;
+    background: none;
+    margin: 0 auto;
+   }
+   .body__form-contact{
+        background: none;
+        row-gap: 20px;
+        display: grid;
     }
-    .body__tel{
-        background-color: #fff;
-        border-radius: 50px;
-        padding: 15px 20px;
-        max-width: 300px;
+    .body__tel__contact{
         width: 100%;
-        position: relative;
-        margin: 0 auto;
-        margin-bottom: 15px;
     }
-    .body__form{
+   
+   .body__tel{
+       display:flex;
+       align-items: center;
+       background: white;
+       padding: 16px;
+       border-radius: 25px;
+       margin-bottom: 15px;
+   }
+ 
+   .btn-ero{
+       width: 100%;
+       position: relative;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .body__form-contact{
+       display: block;
+       align-items: center;
+       justify-content: center;
+   }
+      .body__form-right{
+          display: block;
+          text-align: center;
+      }
+
+      .body__futer{
+          background: white;
+          margin: 0 auto;
+          padding: 13px 21px;
+
+      }
+      .body__futer-info{
+          row-gap: 25px;
+      }
+
+      .body__futer-info li{
+          color: black;
+          background: none;
+      }
+       #bg1{
+          background: url(../imge/bg-futer.respons1.png) no-repeat;
+      }
+      #bg2{
+        background: url(../imge/bg-futer.respons2.png) no-repeat;
+      }
+      #bg3{
+        background: url(../imge/bg-futer.respons3.png) no-repeat;
+      }
+
+      .about__form button{
+          width: 100%;
+      }
+
+      .questions__body{
+          display: block;
+      }
+      .questions__left{
+          padding: 0;
+          width: 100%;
+      }
+      .questions__right{
+          width: 100%;
+      }
+
+     
+      
+      .about__info{
+        background: #1F56D5;
+        border-radius: 20px;
+        padding: 30px 40px;
+        width: 100%;
+        margin: 0 auto;
+        background-image: url(../imge/10.png);
+        background-repeat: no-repeat;
+        background-position: left top;
+        margin-bottom: -112px;
+        position: relative;
+        z-index: 5;
+      }
+      
+
+    .about__cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+      .about__card{
+          width: calc(100% / 2 - 10px);
+          height: 200px;
+      }
+
+      
+      .about__form{
+        position: relative;
+        z-index: 1;
+        background: transparent;
+        max-width: 60%;
+        margin:0 auto ;
+        padding: 9px 22px 45px 22px;
+        text-align: center;
+        border-radius: 20px;
         display: block;
+      }
+    .about__form button{
+        display: flex;
         align-items: center;
+        justify-content: center;
+    }
+      .about__form-inputs{
+          display: block;
+          width: 100%;
+      }
+
+      .about__form-inputs input{
+        width: 100%;
+        outline: 0;
+        border: 0;
+        border-radius: 25px;
+        margin: 0 0 15px;
+        font-size: 14px;
+        padding: 15px;
+        box-sizing: border-box;
+        display: block;
+      }
+      .about__info::before{
+          display: none;
+      }
+      .about__info::after{
+        display: none;
+    }
+    .show__imga {
+        margin: 0 auto;
+        max-width: 100%;
+        display: flex;
+        row-gap: 5px;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+    .show__img-2{
+        display: none;
+    }
+    .show__title h1{
+        font-size: 30px;
+        line-height: 37px;
+        margin-bottom: 20px;
+    }
+
+    .works__card {
+        width: calc(100% / 2 - 7px);
+        margin-bottom: 10px;
+    }
+    .about__info-texts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info__texts{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .info__contoct{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .info__inputs{
+        flex-direction: column;
+        row-gap: 10px;
+        background: none;
+    }
+    .info__inputs input{
+        border-radius: 25px;
+        width: 70%;
+        margin: 0 auto;
+        padding: 20px 25px;
+    }
+}
+@media screen and (max-width:632px){
+    .futer__container{
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+   
+
+@media screen and (max-width:580px){
+    .futer__container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .futer__link{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .futer__contact{
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:540px){
+    .body__text-info{
+        font-size: 30px;
+    }
+    .body__form-right{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .about__card{
+        width: 100%;
+        height: 200px;
+    }
+    .about__form{
+        max-width: 100%;
+    }
+    .about__info-texts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .works__card{
+        width: 100%;
+        margin: 5px auto;
+    }
+    .works__card img{
+        margin: 0 auto;
+    }
+    .futer__iner{
+        flex-direction: column;
+        row-gap: 20px;
     }
 }
